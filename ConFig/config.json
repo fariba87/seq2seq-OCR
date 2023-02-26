@@ -1,0 +1,33 @@
+{
+ "modelName":"GuidedCTC",
+ "modelType":"CTC_attention",
+ "SanityCheck":"False",
+ "InChannel":1,
+ "batchSize":1,
+ "TotalEpoch":10,
+ "timeToSave":60,
+ "timeToTest":60,
+ "timeToWriteSummary":180,
+ "maxTrainData":8000000,
+ "maxTestData":1000,
+ "modelDebug":"False",
+ "TargetHeight":32,
+ "MaxWidthTarget":160,
+ "NumGRUlayer":1,
+ "NumGRUunit":128,
+ "LSTMunit":256,
+ "num_layers_tr":2,
+ "d_model_tr":512,
+ "num_heads_tr":8,
+ "dff_tr":2048,
+ "dropout_rate_tr":0.2,
+ "SeqDivider":4.0,
+ "lr":0.0001,
+ "Shuffle": "False",
+ "lr_tr":3e-6,
+ "lr_ctc":1e3
+}
+
+
+
+
